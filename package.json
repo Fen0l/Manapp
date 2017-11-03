@@ -1,0 +1,22 @@
+{
+  "name": "manapp",
+  "version": "1.0.0",
+  "description": "Application Manager",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fen0l/Manapp.git"
+  },
+  "author": "Anthony Pradal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fen0l/Manapp/issues"
+  },
+  "homepage": "https://github.com/Fen0l/Manapp#readme",
+  "dependencies": {
+    "electron": "^1.7.9"
+  }
+}
