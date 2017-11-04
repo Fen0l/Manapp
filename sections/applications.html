@@ -1,3 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Manapp</title>
+	<link rel="stylesheet" type="text/css" href="css/flatly-bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+	<nav style="-webkit-app-region: drag" class="navbar navbar-dark bg-primary">
+	  <a class="navbar-brand" href="#">Application Manager</a>
+
+	  <!--  Add Menu to login account -->
+
+	  <div class="navbar-right">
+	      <a class="navbar-item" href="#">Sign in</a>
+	      <button type="" class="btn btn-info fa fa-sign-out"></button>
+	</nav>
+	<main class="content js-content"></main>
 
 <div class="filter-content m-b-sm border-bottom">
 	<div class="row">
@@ -59,3 +79,10 @@
 </table> 
 
 
+
+</body>
+
+<script>
+	require('./renderer.js');
+</script>
+</html>
