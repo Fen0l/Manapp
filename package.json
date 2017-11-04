@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Fen0l/Manapp#readme",
   "dependencies": {
-    "electron": "^1.7.9"
+    "electron": "^1.7.9",
+    "electron-reload": "^1.2.2"
   }
 }

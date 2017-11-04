@@ -1,0 +1,43 @@
+
+.filter-content {
+  background-color: #ffffff;
+  color: inherit;
+  padding: 15px 20px 20px 20px;
+  border-color: #e7eaec;
+  border-image: none;
+  border-style: solid solid none;
+  border-width: 1px 0;
+}
+
+.label {
+  background-color: #d1dade;
+  color: #5e5e5e;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  padding: 3px 8px;
+  text-shadow: none;
+}
+.nav .label,
+.filter .label {
+  font-size: 10px;
+}
+.label-primary{
+  background-color: #1ab394;
+  color: #FFFFFF;
+}
+.label-success{
+  background-color: #1c84c6;
+  color: #FFFFFF;
+}
+.label-warning{
+  background-color: #f8ac59;
+  color: #FFFFFF;
+}
+.label-danger{
+  background-color: #ed5565;
+  color: #FFFFFF;
+}
+.label-info{
+  background-color: #23c6c8;
+  color: #FFFFFF;
+}
