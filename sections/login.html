@@ -1,1 +1,50 @@
-login
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Manapp - Login</title>
+
+    <link href="../static/css/flatly-bootstrap.min.css" rel="stylesheet">
+    <link href="../static/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="../static/css/login.css" rel="stylesheet">
+
+</head>
+
+<body class="gray-bg">
+
+    <div class="middle-box text-center loginscreen animated fadeInDown">
+        <div>
+            <div>
+
+                <h1 class="logo-name">ManApp</h1>
+
+            </div>
+            <h3>Welcome to ManApp</h3>
+            <p>ManApp will help you to manage all of your applications; Before, during or after any installation.
+            </p>
+            <form class="m-t" role="form">
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Username" required="">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" placeholder="Password" required="">
+                </div>
+                <button type="submit" id="btnLogin" class="btn btn-primary block full-width m-b">Login</button>
+                <button type="button" id="btnRegister" class="btn btn-primary block full-width m-b">Register</button>
+                <button type="button" id="btnFPassword" class="btn btn-primary block full-width m-b">Forgot password?</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+<script>
+	require('../renderer/login.js');
+</script>
+
+</html>
