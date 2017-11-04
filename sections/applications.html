@@ -1,0 +1,61 @@
+
+<div class="filter-content m-b-sm border-bottom">
+	<div class="row">
+		<div class="col-sm-1"></div>
+		<div class="col-sm-4">
+			<div class="form-group">
+				<label class="control-label" for="app_name">Application</label>
+				<input type="text" id="app_name" name="app_name" value="" placeholder="VLC" class="form-control">
+			</div>
+		</div>
+		<div class="col-sm-1"></div>
+		<div class="col-sm-4">
+			<div class="form-group">
+				<label class="control-label" for="status">Status</label>
+				<select name="status" id="status" class="form-control">
+					<option value="1" selected>Installed</option>
+					<option value="0">Not Installed</option>
+				</select>
+			</div>
+		</div>
+	</div>
+</div>
+
+<table class="table table-striped table-hover table-bordered">
+  <thead class="thead-light">
+    <tr>
+      <th>#</th>
+      <th>Application Name</th>
+      <th>Status</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>VLC</td>
+      <td><span class="label label-success">Available</span></td>
+      <td>
+      	<button type="button" class="btn btn-info fa fa-cloud-download"></button>
+      </td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Discord</td>
+      <td><span class="label label-danger">Unavailable</span></td>
+      <td>
+      	<button type="button" class="btn btn-info fa fa-cloud-download"></button>
+      </td>
+    </tr>
+    <tr>
+      <td>3</td>
+	  <td>Spotify</td>
+      <td><span class="label label-primary">Installed</span></td>
+      <td>
+      	<button type="button" class="btn btn-danger fa fa-trash"></button>
+      </td>
+    </tr>
+  </tbody>
+</table> 
+
+
